@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link.active{
+	border-bottom: 1px solid #575757;
+}
+
+.logo {
+	color: black;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.nav-link {
+	margin-left: 15px;
+	letter-spacing: 1px;
+}
+
+.banner{
+	background-color: #16172b;
+	padding: 100px 0px;
+} .banner h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 90px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.section{
+	padding: 100px 0px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+} .section h2 {
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: -15px;
+} .section h3 {
+	font-size: 32px;
+	font-weight: 300;
+} .section p {
+	color: #3F3F3F;
+	font-size: 24px;
+	font-weight: 700;
+} .section a {
+	text-decoration: none;
+	color: #636363;
+} .section h4 {
+	font-size: 32px;
+	font-weight: 700;
+} .section .find-us-address{
+	color: #3F3F3F;
+	font-size: 17px;
+	font-weight: 300;
+} .section .find-us-body{
+	color: #818181;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 0.02em;
+	padding: 10px 60px;
+} .section .find-us-body-contact{
+	font-size: 18px;
+}
+
+.section2{
+	background-color: #f5f2f2;
+	/*padding: 100px 500px;*/
+} .section2 h3 {
+	font-size: 32px;
+	font-weight: 700;
+} .section2 p {
+	font-size: 18px;
+	font-weight: 300;
+	color: #818181;
+} .section2 .list{
+	font-size: 24px;
+	font-weight: 600;
+}
+
+ .tiny-container{
+	padding: 0px 20%;
+}
+
+strong { 
+	font-weight: bold; 
+}
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+} #map img {
+	height: auto;
+	width: 100%;
+	max-width: 500px;
+}
+
+
+.contact{
+	text-align: center;
+} .contact h2{
+	font-size: 48px;
+ } .contact p {
+ 	color: #D5D5D5 ;
+ } .contact a{
+ 	font-size: 24px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #D5D5D5 ;
+ } .contact .contact-body{
+ 	font-size: 18px;
+ }

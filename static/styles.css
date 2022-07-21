@@ -9,14 +9,18 @@ body{
 	border-bottom: 1px solid #575757;
 }
 
-.logo {
-	color: black;
-	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	font-size: 18px;
-	text-transform: uppercase;
+.navbar-office{
+	justify-content: normal !important;
 }
+
+/*.navbar-toggler {
+	display: flex;
+	float: left;
+}
+.navbar-brand{
+	display: flex;
+	float: left;
+}*/
 
 .nav-link {
 	margin-left: 15px;
@@ -40,9 +44,6 @@ body{
 	}
 }
 
-.navbar-toggler {
-	float: right;
-}
 
 .section{
 	padding: 100px 0px;
@@ -125,4 +126,20 @@ strong {
 	color: #D5D5D5 ;
  } .contact .contact-body{
  	font-size: 18px;
+ }
+
+
+
+ .footer{
+ 	background-color: #f5f2f2;
+ 	padding: 20px 20px;
+ 	padding-top: 30px;
+ 	text-align: center;
+ }  .footer h5 {
+ 	font-size: 15px;
+ }.footer p {
+ 	font-size: 12px;
+ 	margin-top: -5px;
+ } .footer a {
+ 	color: #818181 ;
  }

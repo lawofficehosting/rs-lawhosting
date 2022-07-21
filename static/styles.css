@@ -48,7 +48,12 @@ body{
 	} 
 
 	.navbar-brand{
-	width: 60%;
+	width: 80%;
+	}
+
+	.navbar-toggler{
+		width: 15%;
+		/*height: auto;*/
 	}
 }
 

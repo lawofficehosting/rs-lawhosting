@@ -34,6 +34,16 @@ body{
 	font-weight: 700;
 }
 
+@media (max-width:800px) {
+	.banner h2 {
+		font-size: 60px;
+	}
+}
+
+.navbar-toggler {
+	float: right;
+}
+
 .section{
 	padding: 100px 0px;
 	text-align: center;
@@ -68,6 +78,9 @@ body{
 } .section .find-us-body-contact{
 	font-size: 18px;
 }
+
+
+
 
 .section2{
 	background-color: #f5f2f2;

@@ -155,4 +155,6 @@ strong {
  	margin-top: -5px;
  } .footer a {
  	color: #818181 ;
+ } #footer-fb-link svg{
+ 	width: 48px;
  }
